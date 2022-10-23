@@ -1,0 +1,78 @@
+body{
+  font-family: sans-serif;
+  width: 980px;
+  text-align: center;
+   
+}
+#asus{
+    height: 30px;
+}
+
+#navigation{
+  background-color: indigo;
+}
+
+p{
+    border: 10px;
+    padding-left: 30px;
+overflow: auto;
+}
+
+li{
+    text-align: center;
+}
+
+#bigImgTxt{
+    padding-left: 60px;
+    text-align: left;
+  
+}
+#laptopImage{
+    padding-left: 10px;
+    float: left;
+    height: 150px;
+}
+
+
+  #customers {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(12, 171, 219, 0.979);
+    color: white;
+  }
+#bestBuyMap{
+  height: 300px;
+}
+#detailedImage{
+  padding-left: 10%;
+ width:100%;
+ text-align: center;
+}
+
+#home{
+  float: left;
+}
+
+.horizontalLine{
+  width:100%;
+  text-align:left;
+  margin-left:0
+}
+
+
