@@ -1,0 +1,172 @@
+<!--Name:Morshed Alam Siddiqui Student Number:301242375 Created Date:12/11/2022  -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Assignment 4</title>
+<link rel="stylesheet" href="assignment4Styles.css">
+</head>
+
+<body>
+   
+    <header> 
+    <img src="centennialCollegeLogo.png" alt="Centennial College">    
+    </header>
+    
+    <nav id="navigation"> 
+      <a id="home" href="index.html"><h4>Home Page</h4></a> 
+    </nav>
+
+
+    <hr class="horizontalLine" style=>
+
+    <main>
+        
+        <p>Please read each statement carefully and consider each one individually. Use the buttons to make yout choice</p>
+
+        <fieldset>
+            <label>Course name/Code:
+            <input type="text" name="CName" id="CName" size="30"></label>
+            <label for="myDate">Date</label>
+            <input type="date" name="myDate" id="myDate">
+
+
+            <label for="semester">Semester :</label>
+                
+                <input type="text" name="semester"
+                id="semester" list="semester" >
+                <datalist id="semester">
+                <option>Fall</option>
+                <option>winter</option>
+                <option>Summer/spring</option>
+               
+                </datalist>
+                
+           
+
+
+            <br><br>
+            <label>Instructor:
+                <input type="text" name="CInstructer" id="CInstructer" size="40"></label>
+                
+            </fieldset>
+
+    <h3>Instructor</h3>
+
+    <p class="question">How woudld you like to rate your instructir</p>
+    <form action="/action_page.php">
+        <p class="question">1. knowledge of subject?</p>
+        <input type="radio" id="Excelent" name="knowledge" value="Excelent">
+        <label for="Excelent">Excelent</label> 
+        <input type="radio" id="Good" name="knowledge" value="Good">
+        <label for="Good">Good</label> 
+        <input type="radio" id="fair" name="knowledge" value="fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="knowledge" value="notSatisfactory">
+        <label for="notSatisfactory">Not satiscaftory</label>
+        <br>  
+
+        <p class="question">2. helpfullness?</p>
+        <input type="radio" id="Excelent" name="helpfullness" value="Excelent">
+        <label for="Excelent">Excelent</label> 
+        <input type="radio" id="Good" name="helpfullness" value="Good">
+        <label for="Good">Good</label> 
+        <input type="radio" id="fair" name="helpfullness" value="fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="helpfullness" value="notSatisfactory">
+        <label for="notSatisfactory">Not satiscaftory</label>
+        <br> 
+        
+        <p class="question">3. curtesy and respect for all students? </p>
+        <input type="radio" id="Excelent" name="respect" value="Excelent">
+        <label for="Excelent">Excelent</label> 
+        <input type="radio" id="Good" name="respect" value="Good">
+        <label for="Good">Good</label> 
+        <input type="radio" id="fair" name="respect" value="fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="respect" value="notSatisfactory">
+        <label for="notSatisfactory">Not satiscaftory</label>
+        <br> 
+      
+        <p class="question">4. communication skills</p>
+        <input type="radio" id="Excelent" name="communication" value="Excelent">
+        <label for="Excelent">Excelent</label> 
+        <input type="radio" id="Good" name="communication" value="Good">
+        <label for="Good">Good</label> 
+        <input type="radio" id="fair" name="communication" value="fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="communication" value="notSatisfactory">
+        <label for="notSatisfactory">Not satiscaftory</label>
+        <br> 
+
+        <p class="question">5. overall performance? </p>
+        <input type="radio" id="Excelent" name="performance" value="Excelent">
+        <label for="Excelent">Excelent</label> 
+        <input type="radio" id="Good" name="performance" value="Good">
+        <label for="Good">Good</label> 
+        <input type="radio" id="fair" name="performance" value="fair">
+        <label for="fair">Fair</label>
+        <input type="radio" id="notSatisfactory" name="performance" value="notSatisfactory">
+        <label for="notSatisfactory">Not satiscaftory</label>
+        <br> 
+
+
+        <h3>Course</h3>
+        <p class="question">6. How would you rate course materials? </p>
+        <input type="radio" id="yes" name="courseMaterials" value="yes">
+        <label for="yes">Yes</label> 
+        <input type="radio" id="no" name="courseMaterials" value="no">
+        <label for="no">No</label> 
+        <input type="radio" id="notSure" name="courseMaterials" value="notSure">
+        <label for="notSure">Not Sure</label>
+        
+        <br> 
+
+        <p class="question">10. Would you recommend this course to a friend with the same interest? </p>
+          <input type="radio" id="yes" name="recomendation" value="yes">
+          <label for="yes">Yes</label> 
+          <input type="radio" id="no" name="recomendation" value="no">
+          <label for="no">No</label> 
+          <input type="radio" id="notSure" name="recomendation" value="notSure">
+          <label for="notSure">Not Sure</label>
+          
+          <br> 
+
+          <h3>Any Other Comments</h3>
+ 
+          <p class="question">11. What is the best thing about this Course?</p>
+          <textarea rows="4" cols="50" name="comment" form="usrform">    </textarea>
+          <p class="question">12. How would you improve this course? </p>
+            <textarea rows="4" cols="50" name="comment" form="usrform">    </textarea>
+         <p class="question">13. Other Comments: </p>
+          <textarea rows="4" cols="50" name="comment" form="usrform">   </textarea>
+           <br>
+            <input type="submit" value="Submit">
+
+      </form>
+      
+            
+      <a href="https://www.centennialcollege.ca" target="_blank"><h4>Web: Centennialcollege.ca</h4></a>
+       <a  href="mailto:advising@centennialcollege.ca"><h4>Emmail:advising@centennialcollege.ca</h4></a> 
+
+
+
+
+
+
+    </main>
+    
+    <hr class="horizontalLine">
+
+
+    <footer>
+    <h6>&copy Copyright 2022 Morshed Siddiqui. COMP213-Fall 2022 </h6>  
+    
+     
+    </footer>
+
+    </body>
+    
+
+</html>
