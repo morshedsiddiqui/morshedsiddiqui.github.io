@@ -1,0 +1,13 @@
+.review{
+    height: 300px;
+    padding: 20px;
+}
+#profilePic{
+    border-radius: 50%;
+   text-align: right;
+}
+
+p{
+    padding: 15px;
+}
+
